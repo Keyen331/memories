@@ -7,31 +7,37 @@
 
 #first-row {
   display: flex;
-  justify-content: flex-end;
+  flex-flow: row wrap;
+  justify-content: space-around;
   align-items: stretch;
-  width: 1290px;
-  height: 340px;
-  background-color: pink;
+  width: 1400px;
+  height: 320px;
+  background-color: skyblue;
   margin: 10px;
 }
 
 #second-row {
   display: flex;
-  justify-content: flex-end;
-  width: 1290px;
-  height: 340px;
-  background-color: pink;
-  margin: 10px;
+  justify-content: space-around;
+  width: 1400px;
+  height: 320px;
+  background-color: skyblue;
+  margin: 5px;
 }
 
 .box2 {
   border: solid 1px;
   height: 300px;
-  width: 300px;
+  width: 250px;
   background-color: #d1d2d3;
   margin: 10px;
+  background-image: url(http://facweb.cs.depaul.edu/sgrais/images/Cards/Anglo-American_card_suits.png);
 }
 
 #first-row, #second-row {
   display: inline-flex;
+}
+
+.box2:hover {
+  background-color: red;
 }
