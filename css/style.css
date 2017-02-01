@@ -9,25 +9,29 @@
   display: flex;
   justify-content: flex-end;
   align-items: stretch;
-  width: 500px;
-  height: 250px;
-  background-color: lightgrey;
+  width: 1290px;
+  height: 340px;
+  background-color: pink;
   margin: 10px;
 }
 
 #second-row {
   display: flex;
   justify-content: flex-end;
-  width: 500px;
-  height: 250px;
-  background-color: lightgrey;
+  width: 1290px;
+  height: 340px;
+  background-color: pink;
   margin: 10px;
 }
 
 .box2 {
   border: solid 1px;
-  height: 100px;
-  width: 100px;
+  height: 300px;
+  width: 300px;
   background-color: #d1d2d3;
   margin: 10px;
+}
+
+#first-row, #second-row {
+  display: inline-flex;
 }
