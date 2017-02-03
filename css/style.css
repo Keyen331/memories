@@ -1,11 +1,12 @@
-#box1 {
+.box1 {
   border: solid 1px;
   text-align: center;
   height: 100px;
   background-color: #d1d2d3;
 }
 
-#first-row {
+.first-row {
+
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -16,7 +17,7 @@
   margin: 10px;
 }
 
-#second-row {
+.second-row {
   display: flex;
   justify-content: space-around;
   width: 1400px;
@@ -40,4 +41,19 @@
 
 .box2:hover {
   background-color: red;
+}
+
+.card1 {
+transition: 0.5s;
+transform-style: preserve-3d;
+}
+
+.front {
+  backface-visibility: hidden;
+  background-color: pink;
+
+}
+
+.back {
+  backface-visibility: hidden;
 }
