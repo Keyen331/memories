@@ -34,26 +34,3 @@
   margin: 10px;
   background-image: url(http://facweb.cs.depaul.edu/sgrais/images/Cards/Anglo-American_card_suits.png);
 }
-
-#first-row, #second-row {
-  display: inline-flex;
-}
-
-.box2:hover {
-  background-color: red;
-}
-
-.card1 {
-transition: 0.5s;
-transform-style: preserve-3d;
-}
-
-.front {
-  backface-visibility: hidden;
-  background-color: pink;
-
-}
-
-.back {
-  backface-visibility: hidden;
-}
