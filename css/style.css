@@ -1,37 +1,96 @@
-#box1 {
-  border: solid 1px;
+.ulo {
+  border-style: solid;
+  border-width: 1px;
+  background-color: #babbbc;
   text-align: center;
-  height: 100px;
-  background-color: #d1d2d3;
 }
 
-#first-row {
+.flex-container {
   display: flex;
-  justify-content: flex-end;
-  align-items: stretch;
-  width: 1290px;
-  height: 340px;
-  background-color: pink;
-  margin: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: none;
+  height: 680px;
+  width: auto;
 }
 
-#second-row {
-  display: flex;
-  justify-content: flex-end;
-  width: 1290px;
-  height: 340px;
-  background-color: pink;
-  margin: 10px;
-}
-
-.box2 {
-  border: solid 1px;
+.january {
+  border: solid;
+  border-style: 1px;
+  margin-right: 50px;
+  margin-left: 100px; 
   height: 300px;
-  width: 300px;
-  background-color: #d1d2d3;
-  margin: 10px;
+  width: 200px;
+  background-color: #babbbc;
 }
 
-#first-row, #second-row {
-  display: inline-flex;
+.february {
+  border: solid;
+  border-style: 1px;
+  margin-right: 50px;
+  margin-left: 50px;
+  height: 300px;
+  width: 200px;
+  background-color: #babbbc;
+}
+
+.march {
+  border: solid;
+  border-style: 1px;
+  margin-right: 50px;
+  margin-left: 50px;
+  height: 300px;
+  width: 200px;
+  background-color: #babbbc;
+}
+
+.april {
+  border: solid;
+  border-style: 1px;
+  margin-right: 100px;
+  margin-left: 50px;
+  height: 300px;
+  width: 200px;
+  background-color: #babbbc;
+}
+
+.may {
+  border: solid;
+  border-style: 1px;
+  margin-right: 50px;
+  margin-left: 100px; 
+  height: 300px;
+  width: 200px;
+  background-color: #babbbc;
+}
+
+.june {
+  border: solid;
+  border-style: 1px;
+  margin-right: 50px;
+  margin-left: 50px;
+  height: 300px;
+  width: 200px;
+  background-color: #babbbc;
+}
+
+.july {
+  border: solid;
+  border-style: 1px;
+  margin-right: 50px;
+  margin-left: 50px;
+  height: 300px;
+  width: 200px;
+  background-color: #babbbc;
+}
+
+.august {
+  border: solid;
+  border-style: 1px;
+  margin-right: 100px;
+  margin-left: 50px;
+  height: 300px;
+  width: 200px;
+  background-color: #babbbc;
 }
